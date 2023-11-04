@@ -7,17 +7,17 @@ const Navbar = () => {
       id="nav"
       className="min-w-[18rem] w-[25%] p-[.3rem] h-[100%] overflow-auto"
     >
-      <div className="bg-[#121212] px-[1.2rem] py-[0.5rem] mb-[0.5rem] rounded-lg h-[25%]">
-        <ul className="">
+      <div className="bg-[#121212] px-[1.2rem] mb-[0.5rem] rounded-lg h-[25%]">
+        <ul className="flex flex-col justify-center h-[100%]">
           <li className="my-[1rem]">
-            <img className="h-[1.5rem]" src={Logo} alt="logo" />
+            <img className="h-[1.2rem]" src={Logo} alt="logo" />
           </li>
           <Link to="/" className="my-[1rem] flex items-center">
-            <img className="h-[1.5rem] inline" src={Home} alt="Home" />
+            <img className="h-[1.2rem] inline" src={Home} alt="Home" />
             <span className="ml-[.5rem] font-bold">Home</span>
           </Link>
           <Link to="/search" className="my-[1rem] flex items-center">
-            <img className="h-[1.5rem] inline" src={Search} alt="Home" />
+            <img className="h-[1.2rem] inline" src={Search} alt="Home" />
             <span className="ml-[.5rem] font-bold">Search</span>
           </Link>
         </ul>
