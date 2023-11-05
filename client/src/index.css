@@ -11,3 +11,42 @@
 .homecard:hover button{
     display: inline-block;
 }
+
+
+/* Bottom Nav styling */
+@media only screen and (max-width: 1200px) {
+    .card {
+        width: 22%;
+    }
+    .card > img{
+        height: 60%;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .mainTopArrow{
+        display: none;
+    }
+    .mainTopSearch{
+        width: 25vw;
+    }
+    
+    .card {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .card {
+        width: 45%;
+    }
+    .loginButton{
+        padding: .5rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .homeData{
+        justify-content: center;
+    }
+}

@@ -8,7 +8,7 @@ import Footer from "./components/Footer/Footer"
 
 const App = () => {
   return (
-    <div className='bg-[#000000] text-white h-[100vh] min-h-[45rem]' id="container">
+    <div className='bg-[#000000] text-white h-[100vh] min-h-[45rem] min-w-[650px]' id="container">
         <div id="main" className="flex h-[90%]">
             <Navbar/>
             <div className="p-[.3rem] w-[100%] max-h-[100%] box-border">

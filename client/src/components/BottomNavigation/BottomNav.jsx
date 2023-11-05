@@ -2,10 +2,10 @@ import { Instagram, Facebook, Twitter } from "../../assets"
 
 const BottomNav = () => {
   return (
-    <div>
-        <div className="flex justify-between mb-[2rem]">
-            <div className="flex">
-                <div className="ml-[1rem] mr-[4rem]">
+    <>
+        <div id="#bottomNav" className="flex flex-wrap justify-between mb-[2rem]">
+            <div className="flex flex-wrap">
+                <div className="ml-[1rem] mr-[3rem] mb-[3rem]">
                     <h1 className="font-bold mb-2">Company</h1>
                     <ul className="text-[#a4a4a4]">
                         <li className="hover:text-white hover:underline cursor-pointer mb-1 font-semibold">About</li>
@@ -13,7 +13,7 @@ const BottomNav = () => {
                         <li className="hover:text-white hover:underline cursor-pointer mb-1 font-semibold">For the Record</li>
                     </ul>
                 </div>
-                <div className="ml-[1rem] mr-[4rem]">
+                <div className="ml-[1rem] mr-[3rem] mb-[3rem]">
                     <h1 className="font-bold mb-2">Communities</h1>
                     <ul className="text-[#a4a4a4]">
                         <li className="hover:text-white hover:underline cursor-pointer mb-1 font-semibold">For Artists</li>
@@ -23,7 +23,7 @@ const BottomNav = () => {
                         <li className="hover:text-white hover:underline cursor-pointer mb-1 font-semibold">Vendors</li>
                     </ul>
                 </div>
-                <div className="ml-[1rem] mr-[4rem]">
+                <div className="ml-[1rem] mr-[3rem] mb-[3rem]">
                     <h1 className="font-bold mb-2">Useful Links</h1>
                     <ul className="text-[#a4a4a4]">
                         <li className="hover:text-white hover:underline cursor-pointer mb-1 font-semibold">Support</li>
@@ -41,7 +41,7 @@ const BottomNav = () => {
         </div>
         <div className="border-t-2 border-t-[#292929] mb-[2rem]"></div>
         <div className="text-[#a1a1a1] font-semibold mb-[5rem]">&copy; 2023 Spotify AB</div>
-    </div>
+    </>
   )
 }
 

@@ -8,6 +8,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Here are the present issues in the website
-- not responsive according to screen height
-- overlap in searchMain
+Images taken from spotify website
